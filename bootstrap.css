@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Dados Pessoais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tabela de Dados Pessoais</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Data de Nascimento</th>
+          <th>Gênero</th>
+          <th>E-mail</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Exemplo de dados preenchidos -->
+        <tr>
+          <td>1</td>
+          <td>Ana Silva</td>
+          <td>20</td>
+          <td>2003-05-12</td>
+          <td>Feminino</td>
+          <td>ana.silva@example.com</td>
+          <td>(11) 99999-9999</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>João Oliveira</td>
+          <td>22</td>
+          <td>2001-03-08</td>
+          <td>Masculino</td>
+          <td>joao.oliveira@example.com</td>
+          <td>(21) 98888-8888</td>
+        </tr>
+        <!-- Adicione mais linhas para preencher até 10 alunos -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

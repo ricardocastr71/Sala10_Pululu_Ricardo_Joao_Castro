@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sala10_Pululu_Ricardo_João_Castro</title>
+  <link rel="stylesheet" href="Css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</head>
+
+<body>
+  <div class="container mt-4">
+    <header class="text-center mb-4">
+      <h1>Bem-vindo!</h1>
+      <h5>Formulário de Dados Pessoais</h5>
+      <img src="imagem/rcimagens.jpg" alt="Descrição" class="img-fluid rounded-circle" width="150">
+    </header>
+
+    <form action="#" method="post" class="border p-4 rounded shadow-sm">
+      <div class="form-group">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Pululu Ricardo João Castro" required>
+      </div>
+
+      <div class="form-group">
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" class="form-control" id="data-nascimento" name="data-nascimento" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="ricardocastr71@gmail.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(+244) 926011929" required>
+      </div>
+
+      <div class="form-group">
+        <label for="endereco">Endereço:</label>
+        <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Luanda,Camama" required>
+      </div>
+
+      <div class="form-group">
+        <label>Gênero:</label>
+        <div class="form-check form-check-inline">
+          <input type="radio" class="form-check-input" name="genero" value="masculino" required>
+          <label class="form-check-label">Masculino</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="radio" class="form-check-input" name="genero" value="feminino">
+          <label class="form-check-label">Feminino</label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+    </form>
+
+    <section class="mt-5">
+      <h2 class="text-center">Dados Inseridos</h2>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Curso</th>
+            <th>Sala</th>
+            <th>Número</th>
+            <th>Turma</th>
+            <th>Gênero</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Antônio Alberto</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>01</td>
+            <td>AB</td>
+            <td>Masculino</td>
+          </tr>
+          <tr>
+            <td>Angêla Luvumbo</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>02</td>
+            <td>AB</td>
+            <td>Feminino</td>
+          </tr>
+          <tr>
+            <td>André Matamba</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>03</td>
+            <td>AB</td>
+            <td>Masculino</td>
+          </tr>
+          <tr>
+            <td>Augusto Gabriel</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>04</td>
+            <td>AB</td>
+            <td>Masculino</td>
+          </tr>
+          <tr>
+            <td>Alberto Castro</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>05</td>
+            <td>AB</td>
+            <td>Masculino</td>
+          </tr>
+          <tr>
+            <td>Bruna Samuel</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>06</td>
+            <td>AB</td>
+            <td>Feminino</td>
+          </tr>
+          <tr>
+            <td>Celma Barros</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>07</td>
+            <td>AB</td>
+            <td>Feminino</td>
+          </tr>
+          <tr>
+            <td>Breno Cristovão</td>
+            <td>Informática</td>
+            <td>10</td>
+            <td>08</td>
+            <td>AB</td>
+            <td>Masculino</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mt-5">
+      <h4 class="text-center">Cursos e Disciplinas</h4>
+      <div class="row">
+        <div class="col-md-6">
+          <h6>Lista de Cursos</h6>
+          <ol>
+            <ol>1.Comércio</ol>
+            <li>2.Contabilidade</li>
+            <li>3.Informática de Gestão</li>
+            <li>4.Gestão de Recursos Humanos</li>
+            <li>5.Finanças</li>
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <h6>Lista de Disciplinas</h6>
+          <ul>
+            <li>Língua Portuguesa</li>
+            <li>Inglês</li>
+            <li>Matemática</li>
+            <li>Redes de Computadores</li>
+            <li>Técnicas de Linguagem e Programação</li>
+            <li>Organização e Administração de Empresas</li>
+            <li>Formação de Atitudes Integradoras</li>
+            <li>Informática Aplicada a Gestão</li>
+            <li>Sistema de Informação</li>
+            <li>Empreendedorismo</li>
+            <li>Tecnologia de Informação e Comunicação</li>
+            <li>Projeto Tecnológico</li>
+            <li>Noção de Direito</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
